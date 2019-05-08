@@ -10,4 +10,4 @@ with the following pro's:
 - Penetrates spamfilters
 
 
-Everything you should know to use this mailbomber is shown in the code
+Everything you should know to use this mail bomber is shown in the code
