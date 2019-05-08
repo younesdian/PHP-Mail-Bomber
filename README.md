@@ -8,3 +8,6 @@ with the following pro's:
 - emails and names to choose yourself
 - simple to use
 - Penetrates spamfilters
+
+
+Everything you should know to use this mailbomber is shown in the code
