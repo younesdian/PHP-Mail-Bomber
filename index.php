@@ -30,7 +30,7 @@
                      <input class="form-control" type="text" name="titlemessage"/>
                      <small>Subject of the message</small>
                   </div>
-                  <button class="btn btn-primary" type="submit">Send</button>
+                  <button class="btn btn-primary col-12" type="submit">Send</button>
                </form>
             </div>
          </div>
