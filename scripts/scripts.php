@@ -1,3 +1,8 @@
+<!-- Copyright (C) Younes Dian - All Rights Reserved
+Unauthorized copying of this file, via any medium is strictly prohibited
+Proprietary and confidential
+Written by Younes Dian <y.dian@live.nl>, May 2019 -->
+
 <?php
 
 
