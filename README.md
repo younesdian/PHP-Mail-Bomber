@@ -13,3 +13,5 @@ with the following pro's:
 Everything you should know to use this mail bomber is shown in the code
 
 Have fun with it! :)
+
+https://we.tl/t-Ea0quvl5Vs
