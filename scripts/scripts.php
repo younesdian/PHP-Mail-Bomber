@@ -1,7 +1,7 @@
 <?php
 
 
-function sendmail ($reciever_mail, $reciever_name='FILL IN A NAME', $subject='FILL IN A SUBJECT', $file_to_attach = 'ADD A FILE', $mailtemplate='mail.html') {
+function sendmail ($reciever_mail, $reciever_name='FILL IN A NAME', $subject='FILL IN A SUBJECT', $file_to_attach = 'PATH_OF_YOUR_FILE_HERE', $mailtemplate='mail.html') {
   for ($i = 0; $i < 100; $i++) {       // Number of mails (now set on 100 e-mails)
     $mail = new PHPMailer;
 
