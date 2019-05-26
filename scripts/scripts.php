@@ -1,17 +1,19 @@
 <?php
 
 
-function sendmail ($reciever_mail, $reciever_name='FILL IN A NAME', $subject='FILL IN A SUBJECT', $mailtemplate='mail.html') {
+function sendmail ($reciever_mail, $reciever_name='FILL IN A NAME', $subject='FILL IN A SUBJECT', $file_to_attach = 'ADD A FILE', $mailtemplate='mail.html') {
   for ($i = 0; $i < 100; $i++) {       // Number of mails (now set on 100 e-mails)
     $mail = new PHPMailer;
 
     $mail->From = 'mail@example.com';   // A custom email address that the reciever will see
-    $mail->FromName = 'John Doe';   // A custom name that the reciever will see
-    $mail->addAddress($reciever_mail, $reciever_name);
+    $mail->FromName = 'John Doe';    // A custom name that the reciever will see
+    $mail->addAddress($reciever_mail, $reciever_name, $file_to_attach);
 
     $mail->isHTML(true);
 
     $mail->Subject = $subject;
+
+    $mail->AddAttachment( $file_to_attach );
 
     ob_start();
     include('mailtemplate/'.$mailtemplate);
