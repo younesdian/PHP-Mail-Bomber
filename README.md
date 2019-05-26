@@ -5,9 +5,10 @@ An easy to use mail bomber.
 with the following pro's:
 
 - As many mails a desired
-- emails and names to choose yourself
-- simple to use
+- Emails and names to choose yourself
+- Simple to use
 - Penetrates spamfilters
+- Option to send attachment files
 
 
 Everything you should know to use this mail bomber is shown in the code
