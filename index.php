@@ -40,6 +40,7 @@
                            <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
                         </div>
                      </div>
+                     <small>Add an attachment to the message</small>
                   </div>
                   <button class="btn btn-primary col-12" type="submit">Send</button>
                </form>
