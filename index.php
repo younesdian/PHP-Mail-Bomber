@@ -30,6 +30,17 @@
                      <input class="form-control" type="text" name="titlemessage"/>
                      <small>Subject of the message</small>
                   </div>
+                  <div class="form-group">
+                     <div class="input-group">
+                        <div class="input-group-prepend">
+                           <span class="input-group-text">Upload</span>
+                        </div>
+                        <div class="custom-file">
+                           <input type="file" name="file" class="custom-file-input" id="inputGroupFile01">
+                           <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                        </div>
+                     </div>
+                  </div>
                   <button class="btn btn-primary col-12" type="submit">Send</button>
                </form>
             </div>
@@ -44,9 +55,9 @@
                   require 'phpmailer/class.smtp.php';
                   require 'phpmailer/class.pop3.php';
                   require 'phpmailer/class.phpmailer.php';
-                  
+
                   if ($_POST['sendmail']) {
-                      sendmail($_POST['reciever'], $_POST['namereciever'], $_POST['titlemessage']);
+                      sendmail($_POST['reciever'], $_POST['namereciever'], $_POST['titlemessage'], $_POST['file']);
                   }
                   ?>
             </div>
