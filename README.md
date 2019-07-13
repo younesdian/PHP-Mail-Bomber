@@ -1,16 +1,12 @@
-# php-mail-bomber
+# Mail Bomber
 
-An easy to use mail bomber.
+### An easy to use mail bomber.
 
 with the following pro's:
 
 - As many mails a desired
 - Emails and names to choose yourself
 - Simple to use
-- Penetrates spamfilters
 - Option to send attachment files
 
-
 Everything you should know to use this mail bomber is shown in the code
-
-Have fun with it! :)
