@@ -18,7 +18,7 @@
                   <div class="form-group">
                      <label>Email address</label>
                      <input class="form-control" type="text" name="reciever" />
-                     <small>E-mail address of the reciever</small>
+                     <small>E-mail address are reciever</small>
                   </div>
                   <div class="form-group">
                      <label>Name</label>
